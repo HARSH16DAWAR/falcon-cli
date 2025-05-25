@@ -35,6 +35,8 @@ config.yaml
 *.yml
 !example.*.yaml
 !example.*.yml
+!.github/workflows/*.yml
+!.github/workflows/*.yaml
 
 # Log files
 *.log
