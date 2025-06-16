@@ -94,4 +94,18 @@ HARSH DAWAR - [harsh160102@gmail.com](mailto:harsh160102@gmail.com)
   - Add human-readable (table) output format
   - Enable pipe-based command chaining
   - Implement describe-hosts command with both direct and pipe input support
-[] add filter templates and versioning support 
+[] add filter templates and versioning support
+[] implement dynamic filter system:
+  - Add template-based filters with parameter support
+  - Add parameter validation for common patterns (AWS IDs, regions, etc.)
+  - Add template categories (system, user, team)
+  - Add template documentation and examples
+  - Add template sharing and versioning
+  - Add integration with other tools (AWS CLI, Terraform)
+  - Add template chaining support
+  - Add template export/import functionality
+[] implement simplified output strategy:
+  - Add clean table format for human-readable output (default)
+  - Add JSON format for machine-readable output and debugging
+  - Add CSV format for analytics and data processing
+  - Ensure consistent output structure across all commands 
