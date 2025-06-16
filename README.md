@@ -84,3 +84,14 @@ HARSH DAWAR - [harsh160102@gmail.com](mailto:harsh160102@gmail.com)
 [] add error handling to the client
 [] add the ability for the user to save filters ( only work on hosts for now )
 [] add the ability to export to CSV 
+[] implement reusable filter system:
+  - Create centralized filter management
+  - Support predefined filters in config
+  - Add filter validation and composition
+  - Enable filter caching for performance
+[] implement command composition:
+  - Add machine-readable (JSON) output format for hosts command
+  - Add human-readable (table) output format
+  - Enable pipe-based command chaining
+  - Implement describe-hosts command with both direct and pipe input support
+[] add filter templates and versioning support 
